@@ -1,0 +1,41 @@
+
+.app-Background {
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  min-height: 100vh;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-bordered {
+  border-style: solid;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+
+  border-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
